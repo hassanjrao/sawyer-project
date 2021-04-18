@@ -1,0 +1,284 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+:root {
+    --primary-color: #5f259e;
+    --white: #ffffff;
+    --green: #2e632d;
+    --grey: #f4f4f4;
+}
+
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-color-primary {
+    color: var(--primary-color);
+}
+
+.bg-color-primary {
+    background-color: var(--primary-color);
+}
+
+.topbar {
+    background-color: var(--primary-color);
+}
+
+.topbar a {
+    color: var(--white);
+}
+
+nav {
+    box-shadow: -2px 6px 8px -6px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px 6px 8px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 6px 8px -6px rgba(0, 0, 0, 0.75);
+}
+
+nav a {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    border: 2px solid var(--primary-color);
+    font-weight: bold;
+}
+
+.hero-section {
+    color: white;
+    background-image: url("../images/hero-section/hero-image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.social-icons i {
+    border: 2px solid var(--green);
+    border-radius: 20px;
+    color: var(--green);
+    padding: 5px;
+    cursor: pointer;
+}
+
+.social-icons i:hover {
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.social-icons .fa-facebook-f {
+    padding: 5px 8px;
+}
+
+.description-sec {
+    background-color: var(--grey);
+}
+
+.plants-collection-sec {
+    color: white;
+    background-image: url("../images/plants-gallery/1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.plants-btn {
+    color: var(--primary-color);
+    background-color: var(--white);
+    padding: 2px 20px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+footer a {
+    color: var(--white);
+}
+
+footer a:hover {
+    color: var(--white);
+}
+
+footer .social-icons i {
+    border: 2px solid var(--white);
+    color: var(--white);
+}
+
+footer .social-icons i:hover {
+    border: 2px solid var(--white);
+    color: var(--white);
+}
+
+footer .btn-career {
+    color: var(--white);
+    border: 2px solid var(--white);
+    border-radius: 12px;
+    padding: 6px 30px;
+}
+
+footer .btn-career:hover {
+    text-decoration: underline;
+}
+
+footer .copyright {
+    background-color: var(--grey);
+}
+
+
+/* Gallery Page Starts*/
+
+.gallery-categores .filter a{
+    color: var(--primary-color);
+    font-weight: bold;
+    margin: 0px 15px;
+}
+
+.gallery-row div{
+    padding: 0;
+    margin: 0;
+}
+
+/* Gallery Page Ends */
+
+
+
+/* History Page Starts */
+
+.history .social-icons i {
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+/* History Page Ends */
+
+
+/* Team Page Starts */
+
+.btn-staff{
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+.btn-staff:hover{
+    background-color: var(--primary-color);
+    color: var(--white);
+    text-decoration: underline;
+}
+
+/* Team Page Ends */
+
+
+
+/* Facts & Operation Page Starts */
+
+.facts-and-operation-bg{
+ 
+    background-image: url("../images/facts&operations/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+
+/* Facts & Operation Page Ends */
+
+
+
+/* Contact Page Starts */
+
+.contact-info a{
+    display: block;
+    color: black;
+    /* padding: 10px 0px; */
+}
+
+.contact-info .social-icons i {
+    border: 2px solid var(--primary-color);
+    border-radius: 20px;
+    color: var(--primary-color);
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+.contact-info .social-icons .fa-facebook-f {
+    padding: 5px 8px;
+}
+
+.contact-info .social-icons i:hover {
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.btn-contact-careers{
+    color: var(--white);
+    background-color: var(--primary-color);
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.btn-contact-careers:hover{
+    color: var(--white);
+}
+
+.contact-form{
+
+    box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.77);
+-webkit-box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.77);
+-moz-box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.77);
+
+border-radius: 5px;
+}
+
+.contact-form .btn-contact{
+    color: var(--white);
+    background-color: var(--primary-color);
+    padding: 10px 30px;
+    border-radius: 10px;
+    
+}
+
+
+/* Contact Page Ends */
+
+
+/* Store Location Page Starts */
+
+.store-location .social-icons i {
+    border: 2px solid var(--primary-color);
+    border-radius: 20px;
+    color: var(--primary-color);
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+.store-location .social-icons .fa-facebook-f {
+    padding: 5px 8px;
+}
+
+.store-location .social-icons i:hover {
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+/* Store Location Page Ends */
+
+
+.copyright{
+    color: var(--primary-color);
+    font-size: x-small;
+}
+
+.copyright:hover{
+    color: var(--primary-color);
+    font-size: x-small;
+}
