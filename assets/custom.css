@@ -45,6 +45,10 @@ nav a {
     font-weight: bold;
 }
 
+.nav-link{
+    letter-spacing: 2px;
+}
+
 .hero-section {
     color: white;
     background-image: url("../images/hero-section/hero-image.png");
@@ -82,6 +86,12 @@ nav a {
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
+}
+
+.plants-collection-sec-heading{
+
+    text-shadow: -1px 5px 6px rgba(0,0,0,0.6);
+  
 }
 
 .plants-btn {
