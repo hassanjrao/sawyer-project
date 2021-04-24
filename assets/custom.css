@@ -295,6 +295,44 @@ border-radius: 5px;
 /* Store Location Page Ends */
 
 
+
+/* careers page starts */
+
+.job-card{
+    box-shadow: 1px 0px 3px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 0px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 0px 3px 0px rgba(0,0,0,0.75);
+
+    margin-bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.job-card .btn{
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding-right:25px ;
+    padding-left: 25px;
+    border-radius: 7px;
+}
+
+.job-app-form{
+    background-color: #f4f4f4;
+    padding: 40px 30px;
+}
+
+.job-app-form .btn{
+
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding-right:25px ;
+    padding-left: 25px;
+    border-radius: 7px;
+}
+
+/* careers page ends */
+
+
 .copyright{
     color: var(--primary-color);
     font-size: x-small;
@@ -304,4 +342,5 @@ border-radius: 5px;
     color: var(--primary-color);
     font-size: x-small;
 }
+
 
